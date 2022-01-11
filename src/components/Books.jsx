@@ -8,7 +8,7 @@ const Books = ({ books }) => {
   return (
     <Container fluid>
       <Row>
-        <Col md={10}>
+        <Col md={8}>
           <Form>
             <Form.Group className="mb-3">
               <Form.Control
@@ -40,9 +40,9 @@ const Books = ({ books }) => {
               ))}
           </Row>
         </Col>
-        <Col md={2} className="d-flex justify-content-center">
+        <Col md={4} className="d-flex justify-content-center">
           <h3></h3>
-          {selectedBook && <CommentArea id={selectedBook} />}
+          {<CommentArea id={selectedBook} />}
         </Col>
       </Row>
     </Container>

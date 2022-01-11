@@ -24,41 +24,20 @@ const Home = () => {
       >
         <Tab eventKey="home" title="Sci-Fi">
           <h3 className="mt-4 ">Sci-Fi Books</h3>
-          <Container>
-            <Books books={scifi} />
-          </Container>
+          <Books books={scifi} />
         </Tab>
         <Tab eventKey="profile" title="Romance">
           <h3 className="mt-4 ">Romance Books</h3>
-
-          <Container>
-            {" "}
-            <Books books={romance} />
-          </Container>
+          <Books books={romance} />
         </Tab>
         <Tab eventKey="contact" title="History">
-          <h3 className="mt-4 ">History Books</h3>
-
-          <Container>
-            {" "}
-            <Books books={history} />
-          </Container>
+          <h3 className="mt-4 ">History Books</h3> <Books books={history} />
         </Tab>
         <Tab eventKey="view" title="Horror">
-          <h3 className="mt-4 ">Horror Books</h3>
-
-          <Container>
-            {" "}
-            <Books books={horror} />
-          </Container>
+          <h3 className="mt-4 ">Horror Books</h3> <Books books={horror} />
         </Tab>
         <Tab eventKey="other" title="Fantasy">
-          <h3 className="mt-4 ">Fantasy Books</h3>
-
-          <Container>
-            {" "}
-            <Books books={fantasy} />
-          </Container>
+          <h3 className="mt-4 ">Fantasy Books</h3> <Books books={fantasy} />
         </Tab>
       </Tabs>
     </>

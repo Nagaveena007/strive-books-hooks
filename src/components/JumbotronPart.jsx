@@ -5,11 +5,11 @@ const JumbotronPart = () => {
   return (
     <Jumbotron
       style={{
-        height: "30vh",
+        height: "35vh",
         color: "white",
         backgroundImage:
           "url(" +
-          "https://images.unsplash.com/photo-1518373714866-3f1478910cc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxOTEwMTR8MHwxfHNlYXJjaHw0fHxib29rJTIwc3RvcmV8ZW58MHx8fHwxNjMzMjU2ODYz&ixlib=rb-1.2.1&q=80&w=1080&utm_source=eduflow&utm_medium=referral" +
+          "https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1290&q=80" +
           ")",
         backgroundPosition: "center",
         backgroundSize: "cover",

@@ -9,7 +9,7 @@ const MyNav = ({ search }) => {
     <Navbar
       bg="dark"
       variant="dark"
-      className="sticky-top"
+      className=""
       style={{ height: "70px", fontSize: "large" }}
     >
       <Navbar.Brand href="/">Strive Library</Navbar.Brand>
